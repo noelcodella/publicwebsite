@@ -74,6 +74,7 @@
 
                 <br><h4>Recent News:</h4>
                 <ul>
+                    <li><b>07-03-2022:</b> <a href="https://arxiv.org/pdf/2204.03645.pdf">DaViT</a> and <a href="https://arxiv.org/pdf/2207.12661.pdf">MS-CLIP</a> have both been accepted to ECCV 2022! </li>
                     <li><b>06-11-2022:</b> Our Florence Foundation Model was featured in an article in <a href="https://www.economist.com/interactive/briefing/2022/06/11/huge-foundation-models-are-turbo-charging-ai-progress">The Economist</a></li>
                     <li><b>05-24-2022:</b> Our work on the <a href="https://arxiv.org/abs/2111.11432">Florence computer vision foundation model</a> was featured in <a href="https://www.youtube.com/watch?v=sOgi94TrfuE">Microsoft CEO Satya Nadella's keynote at Microsoft Build 2022</a></li>
                     <li><b>05-20-2022:</b> <a href="https://arxiv.org/abs/2103.15808">CvT</a> models are now available on <a href="https://huggingface.co/docs/transformers/main/en/model_doc/cvt#transformers.CvtForImageClassification"> HuggingFace Transformers</a>! </li>
@@ -132,7 +133,12 @@
                     <table>
                         <tbody>
                         <tr>
-                            <td width="30%"><center><b>arXiv 2022</b><br><img src="images/papers/davit.jpg" width="100%"></center></td>
+                            <td width="30%"><center><b>ECCV 2022</b><br><img src="images/papers/msclip.png" width="100%"></center></td>
+                            <td width="80%" style="vertical-align:middle;" valign="center"><b>Learning Visual Representation from Modality-Shared Contrastive Language-Image Pre-training</b><br><br> We investigate a variety of Modality-Shared Contrastive Language-Image Pre-training (MS-CLIP) frameworks. More specifically, we question how many parameters of a transformer model can be shared across modalities during contrastive pre-training, and rigorously examine architectural design choices that position the proportion of parameters shared along a spectrum. In studied conditions, we observe that a mostly unified encoder for vision and language signals outperforms all other variations that separate more parameters. Additionally, we find that light-weight modality-specific parallel modules further improve performance. Experimental results show that the proposed MS-CLIP approach outperforms vanilla CLIP by up to 13% relative in zero-shot ImageNet classification (pre-trained on YFCC-100M), while simultaneously supporting a reduction of parameters.
+                                of the entire model. <br><br>  [ <a href="https://arxiv.org/pdf/2207.12661.pdf">Paper</a> ] </td>
+                        </tr>
+                        <tr>
+                            <td width="30%"><center><b>ECCV 2022</b><br><img src="images/papers/davit.jpg" width="100%"></center></td>
                             <td width="80%" style="vertical-align:middle;" valign="center"><b>DaViT: Dual Attention Vision Transformers</b><br><br> In this work, we introduce Dual Attention Vision Transformers (DaViT), a simple yet effective vision transformer architecture that is able to capture global context while maintaining computational efficiency. We propose approaching the problem from an orthogonal angle: exploiting self-attention mechanisms with both “spatial tokens” and “channel tokens”. With spatial tokens, the spatial dimension defines the token scope, and the channel dimension defines the token feature dimension. With channel tokens, we have the inverse: the channel dimension defines the token scope, and the spatial dimension defines the token feature dimension. We further group tokens along the sequence direction for both spatial and channel tokens to maintain the linear complexity
                                 of the entire model. <br><br>  [ <a href="https://arxiv.org/pdf/2204.03645.pdf">Paper</a> ] </td>
                         </tr>
