@@ -1,0 +1,18 @@
+theme: jekyll-theme-slate
+title: International Skin Imaging Collaboration (ISIC) Challenge and Workshop
+description: MICCAI 2018
+
+# List of links in the navigation bar
+navbar-links:
+  Workshop: "WORKSHOP"
+  Datasets: "DATASETS"
+  Resources:
+    - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
+    - Learn markdown: "http://www.markdowntutorial.com/"
+    - GitHub Pages: "https://pages.github.com/"
+  Author's home: "http://deanattali.com"
+
+
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap

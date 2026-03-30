@@ -1,3 +1,3 @@
-| [Home](README.md) | [Datasets](DATASETS.md) | [Workshop](WORKSHOP.md) |
+# Noel Codella website
 
-Welcome to the International Skin Imaging Collaboration (ISIC) Workshop and Challenge, hosted at MICCAI 2018! 
+Static website package updated with current CV, recent news, media coverage, patents, and responsive layout.
